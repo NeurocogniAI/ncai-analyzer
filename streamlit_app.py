@@ -20,7 +20,7 @@ st.markdown(
             }
             
             .stApp * {
-                color: #ADD9F6;  # Light blue text color
+                color: #3b82f6;  # Light blue text color
             }
             </style>
             """,
