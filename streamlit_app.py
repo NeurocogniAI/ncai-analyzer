@@ -32,7 +32,7 @@ st.markdown(
 image = Image.open('images/Logo.png') 
 
 st.image(image, use_container_width=True)
-st.markdown("<h1 style='text-align: center;'>🧠 Neurocogni AI Medical Assistant</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>🧠 AI Medical Assistant</h1>", unsafe_allow_html=True)
 
 # Define custom instruction template
 CUSTOM_PROMPT_TEMPLATE = """
@@ -341,7 +341,7 @@ if "chat_messages" not in st.session_state:
     st.session_state.chat_messages = []
 
 # Chat Interface
-st.markdown("<h2 style='text-align: center;'>💬 Chat with NEUROCOGNI AI Medical Assistant</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>💬 Chat with AI Medical Assistant</h2>", unsafe_allow_html=True)
 
 # Display chat messages using Streamlit's chat interface
 for message in st.session_state.chat_messages:
